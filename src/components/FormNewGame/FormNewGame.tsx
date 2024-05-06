@@ -114,7 +114,7 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                             />                            
                         </Form.Group>                          
                     </Row>
-                    <Row className="mb-3"> 
+                    <Row className="mb-3 w-75"> 
                         <Form.Group as={Col} controlId="releaseDate">
                             <Form.Label column="sm" lg={5} className={styles.formLabel}>Fecha lanzamiento</Form.Label>
                             <Form.Control
@@ -125,7 +125,9 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                                 value={inputValues.releaseDate}
                                 onChange={(e) => handleInputChange(e)}                                 
                             />
-                        </Form.Group>
+                        </Form.Group>       
+                    </Row>
+                    <Row className="mb-3 w-75">
                         <Form.Group as={Col} controlId="price" className="w-25">
                             <Form.Label column="sm" lg={5} className={styles.formLabel}>Precio (€)</Form.Label>
                             <Form.Control
@@ -143,7 +145,7 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                             { validated && <span className={styles.selectAlert}>Precio máx. 200 euros. <span className={styles.spanIcon}>💰</span></span> }
                         </Form.Group>                       
                     </Row>
-                    <Row className="mb-3 w-50">
+                    <Row className="mb-3 w-75">
                         <Form.Group as={Col} controlId="pegi">
                             <Form.Label column="sm" lg={5} className={styles.formLabel}>Edad recomendada</Form.Label>
                             <Form.Select 
@@ -164,7 +166,7 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                         </Form.Group>
                         { validated && <span className={styles.selectAlert}>No olvides rellenar este campo <span className={styles.spanIcon}>🎮</span></span> }                     
                     </Row>
-                    <Row className="mb-3">                                
+                    <Row className="mb-3 w-50">                                
                         <Form.Group as={Col} controlId="genre">
                             <Form.Label column="sm" lg={5} className={styles.formLabel}>Género</Form.Label>
                             <Form.Select 
@@ -176,7 +178,7 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                                 value={inputValues.genre}
                                 onChange={(e) => handleInputChange(e)}                
                             >    
-                                <option>Selecciona el género</option>                 
+                                <option>Género</option>                 
                                 <option value="Acción">Acción</option>
                                 <option value="Aventura">Aventura</option>
                                 <option value="Estrategia">Estrategia</option>
@@ -195,7 +197,7 @@ function FormNewGame ({ addNewVideoGame} : FormNewGameProps) {
                                 value={inputValues.publisher}
                                 onChange={(e) => handleInputChange(e)}                    
                             >                     
-                                <option>Selecciona el editor</option>
+                                <option>Editor</option>
                                 <option value="GamerGuru">GamerGuru</option>
                                 <option value="El Rubius">El Rubius</option>
                                 <option value="GameGazer">GameGazer</option>
