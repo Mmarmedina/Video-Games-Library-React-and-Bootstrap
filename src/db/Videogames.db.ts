@@ -87,7 +87,7 @@ export const VideoGames: VideoGame [] = [
         genre: "Shooter", 
         publisher: "Editorial H", 
         price: 49.99, 
-        img: 'https://plus.unsplash.com/premium_photo-1678112179946-f13658b3e918?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img: 'https://images.unsplash.com/photo-1603985753826-30c036e8804d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     { 
         id: "F8pyafoYsahDguq5rAX9Y", 
@@ -109,7 +109,7 @@ export const VideoGames: VideoGame [] = [
         genre: "Deportes", 
         publisher: "Editorial J", 
         price: 29.99,
-        img: 'https://plus.unsplash.com/premium_photo-1682141882061-c7676602e111?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+        img: 'https://images.unsplash.com/photo-1511882150382-421056c89033?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
     { 
         id: "O8pyafoYsahDguq5rAX9R", 
