@@ -78,17 +78,17 @@ export const VideoGames: VideoGame [] = [
         price: 36.99,
         img: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
-    // { 
-    //     id: "F8pyafoYsahDguq5rAX9T", 
-    //     title: "Abyssal Rhapsody: Sinfonía Submarina",
-    //     excerpt: "Sumérgete en las profundidades inexploradas de Abyssal Rhapsody. Eres el capitán de un submarino de investigación, enfrentándote a criaturas marinas desconocidas y descubriendo ruinas submarinas. ¿Podrás revelar los secretos del abismo o sucumbirás a sus misterios?",
-    //     releaseDate: "01-07-2023", 
-    //     pegi: "18", 
-    //     genre: "Shooter", 
-    //     publisher: "Editorial H", 
-    //     price: 49.99, 
-    //     img: 'https://images.unsplash.com/photo-1603985753826-30c036e8804d?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-    // },
+    { 
+        id: "F8pyafoYsahDguq5rAX9T", 
+        title: "Abyssal Rhapsody: Sinfonía Submarina",
+        excerpt: "Sumérgete en las profundidades inexploradas de Abyssal Rhapsody. Eres el capitán de un submarino de investigación, enfrentándote a criaturas marinas desconocidas y descubriendo ruinas submarinas. ¿Podrás revelar los secretos del abismo o sucumbirás a sus misterios?",
+        releaseDate: "01-07-2023", 
+        pegi: "18", 
+        genre: "Shooter", 
+        publisher: "Editorial H", 
+        price: 49.99, 
+        img: 'https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    },
     { 
         id: "F8pyafoYsahDguq5rAX9Y", 
         title: "Quantum Duelists: Batalla de las Realidades",
@@ -100,17 +100,17 @@ export const VideoGames: VideoGame [] = [
         price: 39.99,
         img: 'https://images.unsplash.com/photo-1619254994461-1d7ead39dfb7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
     },
-    // { 
-    //     id: "L8pyafoYsahDguq5rAX9R", 
-    //     title: "Skyward Odyssey: Guardianes del Cielo",
-    //     excerpt: "Eleva tu destino en Skyward Odyssey, donde eres un guardián celestial encargado de proteger el reino de las nubes. Explora islas flotantes, desafía a criaturas mitológicas y descubre antiguos secretos que cambiarán el curso de la historia celestial.",
-    //     releaseDate: "18-09-2023", 
-    //     pegi: "12", 
-    //     genre: "Deportes", 
-    //     publisher: "Editorial J", 
-    //     price: 29.99,
-    //     img: 'https://images.unsplash.com/photo-1511882150382-421056c89033?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
-    // },
+    { 
+        id: "L8pyafoYsahDguq5rAX9R", 
+        title: "Skyward Odyssey: Guardianes del Cielo",
+        excerpt: "Eleva tu destino en Skyward Odyssey, donde eres un guardián celestial encargado de proteger el reino de las nubes. Explora islas flotantes, desafía a criaturas mitológicas y descubre antiguos secretos que cambiarán el curso de la historia celestial.",
+        releaseDate: "18-09-2023", 
+        pegi: "12", 
+        genre: "Deportes", 
+        publisher: "Editorial J", 
+        price: 29.99,
+        img: 'https://images.unsplash.com/photo-1511882150382-421056c89033?q=80&w=1771&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
+    },
     { 
         id: "O8pyafoYsahDguq5rAX9R", 
         title: "Mystic Forge: Forjadores de Destinos",

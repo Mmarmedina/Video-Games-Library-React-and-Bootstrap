@@ -5,7 +5,7 @@ import styles from './Footer.module.css';
 function Footer () {
     return (
         <footer className={styles.footerStyles}>
-            <Container>
+            <Container className="px-5">
                 <Row>
                     <Col md={4}>
                         <p className="text-decoration-none text-white fw-semibold h6">Contacto</p>
